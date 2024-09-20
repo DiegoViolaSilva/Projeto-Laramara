@@ -1,0 +1,20 @@
+
+
+
+##### `donation_list.html`
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Doações</title>
+</head>
+<body>
+    <h2>Lista de Doações</h2>
+    <ul>
+        {% for donation in donations %}
+            <li>{{ donation }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+```
